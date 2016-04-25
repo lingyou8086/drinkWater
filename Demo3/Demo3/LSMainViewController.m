@@ -74,7 +74,7 @@
     
     self.index = 1;
     
-    self.view.backgroundColor = [UIColor colorWithRed:44/255.0 green:50/255.0 blue:57/255.0 alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithRed:36/255.0 green:46/255.0 blue:52/255.0 alpha:1.0];
     
     
     
@@ -557,6 +557,9 @@
         UILocalNotification *notification6=[[UILocalNotification alloc] init];
         notification6.fireDate = [NSDate dateWithTimeIntervalSince1970:(nightHour -9)*60*60+nightMinute*60];
         [self addAlarmNotification:notification6];
+        
+        
+        
 
     }else {
     

@@ -103,10 +103,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 默认设置内的通知按钮式打开状态
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"swithState"];
     
     NSLog(@"%@",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] );
     
-    self.view.backgroundColor = [UIColor colorWithRed:44/255.0 green:50/255.0 blue:57/255.0 alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithRed:36/255.0 green:46/255.0 blue:52/255.0 alpha:1.0];
     
     //NSLog(@"mDevice:%f",mDevice);
     //NSString *deviceStr = [self deviceString];
@@ -167,16 +169,24 @@
         if (successT3) {
             NSLog(@"FristPageViewController创建表:t_record成功!");
             
-            [self.database executeUpdate:@"DELETE FROM t_record ;"];
-            
-            // 插入一条初始化数据
-            BOOL successT3_1  =  [self.database executeUpdate:@"INSERT INTO t_record(time,volume,total) VALUES ('0',0,0,'2016:04:19')"];
-            
-            if (successT3_1) {
-                NSLog(@"FristPageViewController向表:t_record插入预设数据成功!");
-            } else {
-                NSLog(@"FristPageViewController向表:t_record插入预设数据失败!");
-            }
+//            [self.database executeUpdate:@"DELETE FROM t_record ;"];
+//            
+//            // 插入一条初始化数据
+//            
+//            NSDate * date =[NSDate date];
+//            NSDateFormatter * forma = [[NSDateFormatter alloc] init];
+//            forma.dateFormat = @"yyyy:MM:dd";
+//            NSString * today = [forma stringFromDate:date];
+//            
+//            NSString *  sql3_1 = [NSString stringWithFormat:@"INSERT INTO t_record(time,volume,total,fullTime) VALUES ('0',0,0,'%@')",today];
+//            
+//            BOOL successT3_1  =  [self.database executeUpdate:sql3_1];
+//            
+//            if (successT3_1) {
+//                NSLog(@"FristPageViewController向表:t_record插入预设数据成功!");
+//            } else {
+//                NSLog(@"FristPageViewController向表:t_record插入预设数据失败!");
+//            }
         }else{
             NSLog(@"FristPageViewController创建表:t_record失败!!");
         }
@@ -632,7 +642,7 @@
         }
 
     }];
-    
+
 }
 
 #pragma mark UITextFeild代理方法

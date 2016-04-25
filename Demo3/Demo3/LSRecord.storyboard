@@ -103,8 +103,7 @@
                         <barButtonItem key="rightBarButtonItem" image="详细记录" style="plain" id="lXS-9a-aaR">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="detailRecord:" destination="s9A-iH-ZFP" id="xUi-br-W9D"/>
-                                <segue destination="ygW-rQ-dq2" kind="show" id="Q0L-BW-6MV"/>
+                                <action selector="didClickDetailRecord:" destination="s9A-iH-ZFP" id="ItU-Rr-L39"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -116,36 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dVp-j4-Kiv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-70" y="448"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="OMw-A1-7hP">
-            <objects>
-                <viewController id="ygW-rQ-dq2" customClass="LSViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="p4e-7a-7gh"/>
-                        <viewControllerLayoutGuide type="bottom" id="tGh-H9-RhY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="f71-8L-qrh">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMj-AD-DVn">
-                                <rect key="frame" x="0.0" y="114" width="600" height="82"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="testLabel" destination="kMj-AD-DVn" id="Ei3-H2-exY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MlJ-tF-LAm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="571" y="416"/>
+            <point key="canvasLocation" x="457" y="395"/>
         </scene>
     </scenes>
     <resources>

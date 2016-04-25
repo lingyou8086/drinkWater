@@ -27,6 +27,13 @@
     // Override point for customization after application launch.
     
     
+    
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:44/255.0 green:50/255.0 blue:57/255.0 alpha:1.0];
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    //[[UINavigationBar appearance] setShadowImage:[UIImage new]] ;
+    
+    //[UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
    
     
@@ -88,6 +95,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    application.applicationIconBadgeNumber = 0;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

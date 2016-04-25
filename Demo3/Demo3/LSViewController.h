@@ -1,8 +1,8 @@
 //
 //  LSViewController.h
-//  Demo3
+//  testCollection
 //
-//  Created by hanya on 16/4/19.
+//  Created by hanya on 16/4/21.
 //  Copyright © 2016年 hanya. All rights reserved.
 //
 

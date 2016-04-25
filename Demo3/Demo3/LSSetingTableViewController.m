@@ -31,6 +31,7 @@
 
 @property (nonatomic, copy) NSString *oldGetUpTime;
 @property (nonatomic, copy) NSString *oldSleepTime;
+@property (weak, nonatomic) IBOutlet UISwitch *notifiSwitch;
 
 - (IBAction)notificationSwitch:(UISwitch *)sender;
 
@@ -46,6 +47,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+    
+    BOOL swithState = [defaults floatForKey:@"swithState"];
+    self.notifiSwitch.on = swithState;
+    
+    // 设置标题颜色为白色
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
     self.getupTimeLabel.textColor    = [UIColor blackColor];
     UIDatePicker * picker1           = [self getPicker];
@@ -275,11 +284,19 @@
         // 重新添加本地通知
         [self addLocalNotification];
         
+        NSArray * localNotiArray = [[UIApplication sharedApplication] scheduledLocalNotifications];
+        
+        for (UILocalNotification * local in localNotiArray) {
+            NSLog(@"%@",local);
+        }
+        
     }
     else {
         // 清除本地通知
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
     }
+    
+    [[NSUserDefaults standardUserDefaults] setBool:sender.isOn forKey:@"swithState"];
 }
 
 

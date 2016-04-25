@@ -24,6 +24,11 @@
 		3F20D0EF1CBE1C610057BD87 /* UUChartConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20D0E71CBE1C610057BD87 /* UUChartConst.m */; };
 		3F20D0F01CBE1C610057BD87 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20D0E91CBE1C610057BD87 /* UUChartLabel.m */; };
 		3F20D0F11CBE1C610057BD87 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20D0EB1CBE1C610057BD87 /* UULineChart.m */; };
+		3F21B4651CCA0F5C00A7A8AB /* LSCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21B45F1CCA0F5C00A7A8AB /* LSCollectionReusableView.m */; };
+		3F21B4661CCA0F5C00A7A8AB /* LSCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F21B4601CCA0F5C00A7A8AB /* LSCollectionReusableView.xib */; };
+		3F21B4671CCA0F5C00A7A8AB /* LSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21B4621CCA0F5C00A7A8AB /* LSCollectionViewCell.m */; };
+		3F21B4681CCA0F5C00A7A8AB /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21B4641CCA0F5C00A7A8AB /* LSViewController.m */; };
+		3F21B4B41CCA85D200A7A8AB /* KACircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21B4B31CCA85D200A7A8AB /* KACircleProgressView.m */; };
 		3F89CEF81CAC2FE6002BBEFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89CEF71CAC2FE6002BBEFA /* main.m */; };
 		3F89CEFB1CAC2FE6002BBEFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89CEFA1CAC2FE6002BBEFA /* AppDelegate.m */; };
 		3F89CEFE1CAC2FE6002BBEFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89CEFD1CAC2FE6002BBEFA /* ViewController.m */; };
@@ -46,7 +51,6 @@
 		3F89CF481CAECAF4002BBEFA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89CF471CAECAF4002BBEFA /* UIColor+Hex.m */; };
 		3F89CF4B1CAECAFA002BBEFA /* Water.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89CF4A1CAECAFA002BBEFA /* Water.m */; };
 		3F89CF4F1CAF543B002BBEFA /* LSInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89CF4E1CAF543B002BBEFA /* LSInputView.m */; };
-		3FA95FD41CC664DB00CBAF82 /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA95FD31CC664DB00CBAF82 /* LSViewController.m */; };
 		712C3BA9A1A904C61247682E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48087FEB7BB8C1B736A59FBF /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +87,15 @@
 		3F20D0E91CBE1C610057BD87 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
 		3F20D0EA1CBE1C610057BD87 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
 		3F20D0EB1CBE1C610057BD87 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
+		3F21B45E1CCA0F5C00A7A8AB /* LSCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCollectionReusableView.h; sourceTree = "<group>"; };
+		3F21B45F1CCA0F5C00A7A8AB /* LSCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCollectionReusableView.m; sourceTree = "<group>"; };
+		3F21B4601CCA0F5C00A7A8AB /* LSCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSCollectionReusableView.xib; sourceTree = "<group>"; };
+		3F21B4611CCA0F5C00A7A8AB /* LSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCollectionViewCell.h; sourceTree = "<group>"; };
+		3F21B4621CCA0F5C00A7A8AB /* LSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCollectionViewCell.m; sourceTree = "<group>"; };
+		3F21B4631CCA0F5C00A7A8AB /* LSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSViewController.h; sourceTree = "<group>"; };
+		3F21B4641CCA0F5C00A7A8AB /* LSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSViewController.m; sourceTree = "<group>"; };
+		3F21B4B21CCA85D200A7A8AB /* KACircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACircleProgressView.h; sourceTree = "<group>"; };
+		3F21B4B31CCA85D200A7A8AB /* KACircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACircleProgressView.m; sourceTree = "<group>"; };
 		3F89CEF31CAC2FE6002BBEFA /* Demo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F89CEF71CAC2FE6002BBEFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F89CEF91CAC2FE6002BBEFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,8 +143,6 @@
 		3F89CF4A1CAECAFA002BBEFA /* Water.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Water.m; sourceTree = "<group>"; };
 		3F89CF4D1CAF543B002BBEFA /* LSInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSInputView.h; sourceTree = "<group>"; };
 		3F89CF4E1CAF543B002BBEFA /* LSInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSInputView.m; sourceTree = "<group>"; };
-		3FA95FD21CC664DB00CBAF82 /* LSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSViewController.h; sourceTree = "<group>"; };
-		3FA95FD31CC664DB00CBAF82 /* LSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSViewController.m; sourceTree = "<group>"; };
 		48087FEB7BB8C1B736A59FBF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D3536A6F343600C0DA95CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +196,51 @@
 				3F20D0EB1CBE1C610057BD87 /* UULineChart.m */,
 			);
 			path = UUChart;
+			sourceTree = "<group>";
+		};
+		3F21B45A1CCA0ECC00A7A8AB /* DetailRecord */ = {
+			isa = PBXGroup;
+			children = (
+				3F21B4B21CCA85D200A7A8AB /* KACircleProgressView.h */,
+				3F21B4B31CCA85D200A7A8AB /* KACircleProgressView.m */,
+				3F21B45E1CCA0F5C00A7A8AB /* LSCollectionReusableView.h */,
+				3F21B45F1CCA0F5C00A7A8AB /* LSCollectionReusableView.m */,
+				3F21B4601CCA0F5C00A7A8AB /* LSCollectionReusableView.xib */,
+				3F21B4611CCA0F5C00A7A8AB /* LSCollectionViewCell.h */,
+				3F21B4621CCA0F5C00A7A8AB /* LSCollectionViewCell.m */,
+				3F21B4631CCA0F5C00A7A8AB /* LSViewController.h */,
+				3F21B4641CCA0F5C00A7A8AB /* LSViewController.m */,
+			);
+			name = DetailRecord;
+			sourceTree = "<group>";
+		};
+		3F21B45B1CCA0EE300A7A8AB /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				3F20D0DC1CBE16A60057BD87 /* LSRecordViewController.h */,
+				3F20D0DD1CBE16A60057BD87 /* LSRecordViewController.m */,
+			);
+			name = Record;
+			sourceTree = "<group>";
+		};
+		3F21B45C1CCA0EF100A7A8AB /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				3F20D0D01CBD45F80057BD87 /* LSSetingTableViewController.h */,
+				3F20D0D11CBD45F80057BD87 /* LSSetingTableViewController.m */,
+				3F89CF421CAE7957002BBEFA /* LSMainViewController.h */,
+				3F89CF431CAE7957002BBEFA /* LSMainViewController.m */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		3F21B45D1CCA0EF900A7A8AB /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				3F89CF3A1CAC3096002BBEFA /* FristPageViewController.h */,
+				3F89CF3B1CAC3096002BBEFA /* FristPageViewController.m */,
+			);
+			name = FirstPage;
 			sourceTree = "<group>";
 		};
 		3F89CEEA1CAC2FE6002BBEFA = {
@@ -267,18 +323,12 @@
 		3F89CF371CAC305A002BBEFA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3F21B45D1CCA0EF900A7A8AB /* FirstPage */,
+				3F21B45C1CCA0EF100A7A8AB /* MainPage */,
+				3F21B45B1CCA0EE300A7A8AB /* Record */,
+				3F21B45A1CCA0ECC00A7A8AB /* DetailRecord */,
 				3F89CEFC1CAC2FE6002BBEFA /* ViewController.h */,
 				3F89CEFD1CAC2FE6002BBEFA /* ViewController.m */,
-				3F89CF3A1CAC3096002BBEFA /* FristPageViewController.h */,
-				3F89CF3B1CAC3096002BBEFA /* FristPageViewController.m */,
-				3F89CF421CAE7957002BBEFA /* LSMainViewController.h */,
-				3F89CF431CAE7957002BBEFA /* LSMainViewController.m */,
-				3F20D0D01CBD45F80057BD87 /* LSSetingTableViewController.h */,
-				3F20D0D11CBD45F80057BD87 /* LSSetingTableViewController.m */,
-				3F20D0DC1CBE16A60057BD87 /* LSRecordViewController.h */,
-				3F20D0DD1CBE16A60057BD87 /* LSRecordViewController.m */,
-				3FA95FD21CC664DB00CBAF82 /* LSViewController.h */,
-				3FA95FD31CC664DB00CBAF82 /* LSViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -411,6 +461,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F21B4661CCA0F5C00A7A8AB /* LSCollectionReusableView.xib in Resources */,
 				3F20D0DB1CBE13E90057BD87 /* LSRecord.storyboard in Resources */,
 				3F202FA01CB0AC1C00E1CAF1 /* Info.plist in Resources */,
 				3F89CF2C1CAC3010002BBEFA /* Info.plist in Resources */,
@@ -480,7 +531,6 @@
 				3F20D0F01CBE1C610057BD87 /* UUChartLabel.m in Sources */,
 				3F89CF2E1CAC3010002BBEFA /* MASConstraint.m in Sources */,
 				3F202F9B1CB0AC1C00E1CAF1 /* FMDatabase.m in Sources */,
-				3FA95FD41CC664DB00CBAF82 /* LSViewController.m in Sources */,
 				3F89CF361CAC3010002BBEFA /* ViewController+MASAdditions.m in Sources */,
 				3F202F9D1CB0AC1C00E1CAF1 /* FMDatabasePool.m in Sources */,
 				3F202F9F1CB0AC1C00E1CAF1 /* FMResultSet.m in Sources */,
@@ -488,13 +538,17 @@
 				3F20D0ED1CBE1C610057BD87 /* UUBarChart.m in Sources */,
 				3F89CF441CAE7957002BBEFA /* LSMainViewController.m in Sources */,
 				3F89CF301CAC3010002BBEFA /* MASLayoutConstraint.m in Sources */,
+				3F21B4681CCA0F5C00A7A8AB /* LSViewController.m in Sources */,
 				3F20D0F11CBE1C610057BD87 /* UULineChart.m in Sources */,
 				3F89CF331CAC3010002BBEFA /* NSArray+MASAdditions.m in Sources */,
 				3F89CF321CAC3010002BBEFA /* MASViewConstraint.m in Sources */,
+				3F21B4671CCA0F5C00A7A8AB /* LSCollectionViewCell.m in Sources */,
 				3F89CF311CAC3010002BBEFA /* MASViewAttribute.m in Sources */,
 				3F202F9E1CB0AC1C00E1CAF1 /* FMDatabaseQueue.m in Sources */,
+				3F21B4B41CCA85D200A7A8AB /* KACircleProgressView.m in Sources */,
 				3F20D0DE1CBE16A60057BD87 /* LSRecordViewController.m in Sources */,
 				3F20D0EC1CBE1C610057BD87 /* UUBar.m in Sources */,
+				3F21B4651CCA0F5C00A7A8AB /* LSCollectionReusableView.m in Sources */,
 				3F20D0D21CBD45F80057BD87 /* LSSetingTableViewController.m in Sources */,
 				3F89CF351CAC3010002BBEFA /* View+MASAdditions.m in Sources */,
 				3F20D0EE1CBE1C610057BD87 /* UUChart.m in Sources */,

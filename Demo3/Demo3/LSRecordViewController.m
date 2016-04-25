@@ -9,6 +9,7 @@
 #import "LSRecordViewController.h"
 #import "UUChart.h"
 #import "FMDatabase.h"
+#import "LSViewController.h"
 
 #define kScreenSize [UIScreen mainScreen].bounds.size
 
@@ -40,9 +41,9 @@
     
     //self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:36/255.0 green:42/255.0 blue:52/255.0 alpha:1.0];
     
-    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:36/255.0 green:42/255.0 blue:52/255.0 alpha:1.0];
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-    [[UINavigationBar appearance] setShadowImage:[UIImage new]] ;
+//    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:44/255.0 green:50/255.0 blue:57/255.0 alpha:1.0];
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    [[UINavigationBar appearance] setShadowImage:[UIImage new]] ;
     
     // 创建/读取本地数据库
     NSString *path            = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject] stringByAppendingPathComponent:@"datafmdb.sqlite"];
@@ -280,11 +281,27 @@
     return YES;
 }
 
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    
+//    return UIStatusBarStyleDefault;
+//}
+
 // 点击返回
 - (IBAction)didClickBack:(UIBarButtonItem *)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];
     
+}
+#pragma mark 点击进入详细记录页面
+- (IBAction)didClickDetailRecord:(UIBarButtonItem *)sender {
+    
+    LSViewController * vc = [[LSViewController alloc] init];
+    
+    // 去掉详细页面返回按钮的文字
+    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleDone target:nil action:nil];
+    self.navigationItem.backBarButtonItem = item;
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

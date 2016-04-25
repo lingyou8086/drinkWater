@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="header1" id="U6b-Vx-4bR" customClass="LSCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pA-jH-Jk2">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2pA-jH-Jk2" secondAttribute="trailing" id="07K-rB-XDX"/>
+                <constraint firstItem="2pA-jH-Jk2" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="3Xs-If-Qob"/>
+                <constraint firstItem="2pA-jH-Jk2" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="G5A-rB-I5g"/>
+                <constraint firstAttribute="bottom" secondItem="2pA-jH-Jk2" secondAttribute="bottom" id="r7q-Gh-rrT"/>
+            </constraints>
+            <connections>
+                <outlet property="dateLabel" destination="2pA-jH-Jk2" id="YNW-Nb-YX5"/>
+            </connections>
+            <point key="canvasLocation" x="669" y="298"/>
+        </collectionReusableView>
+    </objects>
+</document>
