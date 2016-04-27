@@ -9,7 +9,7 @@
 
 ![gif](https://github.com/lingyou8086/drinkWater/blob/master/img/3.gif)
 
-可以查看界面并更改设置
+可以查看本周与上周喝水量的对比，和总的喝水记录。在设置界面可以更改一些设置
 
 ![gif](https://github.com/lingyou8086/drinkWater/blob/master/img/4.gif)
 
