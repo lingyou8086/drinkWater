@@ -15,4 +15,4 @@
 
 该应用还有提醒功能，每隔一段时间都会提醒用户喝水。
 
-![gif](https://github.com/lingyou8086/drinkWater/blob/master/img/notification.PNG）
+![png](https://github.com/lingyou8086/drinkWater/blob/master/img/notification.PNG）
