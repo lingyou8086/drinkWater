@@ -12,7 +12,9 @@
 
 可以查看界面并更改设置
 
+
 ![gif](https://github.com/lingyou8086/drinkWater/blob/master/img/4.gif)
+
 
 
 该应用还有提醒功能，每隔一段时间都会提醒用户喝水。
